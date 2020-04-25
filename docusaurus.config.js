@@ -8,23 +8,23 @@ module.exports = {
   projectName: 'jci-fellows.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'UH/JCI Fellows',
+      title: 'JCI Fellows Programs',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/uh-system-seal.jpg',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/motivation',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'News', position: 'left'},
         {
           href: 'https://github.com/jci-fellows/',
           label: 'GitHub',
-          position: 'right',
+          position: 'left',
         },
       ],
     },
@@ -35,12 +35,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Markdown Guide',
+              to: 'docs/markdown-reference',
             },
           ],
         },
@@ -48,11 +44,7 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
+              label: 'Slack',
               href: 'https://discordapp.com/invite/docusaurus',
             },
           ],
@@ -61,21 +53,17 @@ module.exports = {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
+              label: 'News',
               to: 'blog',
             },
             {
               label: 'GitHub',
               href: 'https://github.com/jci-fellows/',
             },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/jci-fellows',
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} University of Hawaii. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} University of Hawaii.`,
     },
   },
   presets: [
@@ -85,7 +73,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/jci-fellows/docusaurus/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

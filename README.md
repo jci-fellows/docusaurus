@@ -1,33 +1,32 @@
-# Website
+# JCI Fellows Program web site
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/).
+
+### Developer privileges
+
+To do development on this site, you must have commit/push privileges to jci-fellows/jci-fellows.github.io and jci-fellows/docusaurus repositories on GitHub.  You can obtain those privileges from Philip Johnson.
 
 ### Installation
 
+Download the sources, install NPM, then run:
 ```
-$ yarn
+$ npm install
 ```
 
 ### Local Development
 
-```
-$ yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+To start up a local version of the website with automatic rebuilding on changes, run:
 
 ```
-$ yarn build
+$ npm run start
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
 
+First, set GIT_USER to your GitHub user name. Then, to build and deploy the site to jci-fellows.github.io, invoke:
+
 ```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+$ npm run deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Note that this command does not commit your changes to the jci-fellows/docusaurus repository, so be sure to push those changes as well.
