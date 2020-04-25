@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'jci-fellows.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'JCI Fellows Programs',
+      title: 'JCI Fellows Program',
       logo: {
         alt: 'My Site Logo',
         src: 'img/uh-system-seal.jpg',
