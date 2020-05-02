@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/research.png',
     description: (
       <>
-        UH/JCI Fellows will perform cutting edge research in renewable energy at the University of Hawaii.
+        JCI Fellows will perform cutting edge research in renewable energy at the University of Hawaii.
       </>
     ),
   },
@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/development.png',
     description: (
       <>
-        UH/JCI Fellows will create innovative tools and technology to collect, understand, and analyze energy consumption at UH.
+        JCI Fellows will create innovative tools and technology to collect, understand, and analyze energy consumption at UH.
       </>
     ),
   },
@@ -31,7 +31,7 @@ const features = [
     imageUrl: 'img/education.png',
     description: (
       <>
-        UH/JCI Fellows will both learn about the state-of-the-art in renewable energy, but also pass this knowledge along to their peers through presentations, publications, and mentoring.
+        JCI Fellows will both learn about the state-of-the-art in renewable energy, but also pass this knowledge along to their peers through presentations, publications, and mentoring.
       </>
     ),
   },
@@ -69,7 +69,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/doc1')}>
+              to={useBaseUrl('docs/motivation')}>
               Learn More
             </Link>
           </div>

@@ -10,7 +10,7 @@ module.exports = {
     navbar: {
       title: 'JCI Fellows Program',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'JCI Fellows Logo',
         src: 'img/uh-system-seal.jpg',
       },
       links: [
@@ -45,7 +45,7 @@ module.exports = {
           items: [
             {
               label: 'Slack',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://jci-fellows.slack.com',
             },
           ],
         },
