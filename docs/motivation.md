@@ -28,7 +28,7 @@ For this project, begin by building a model that accesses UHM building meters an
 
 Second, perform an evaluation to determine the accuracy of the predictive model.
 
-Third, expand the model to predict annual energy costs with a measure of its accuracy.a
+Third, expand the model to predict annual energy costs with a measure of its accuracy.
 
 Finally, use the model to help UH understand the impact of annual temperature rise on its energy costs.
 

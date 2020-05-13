@@ -18,4 +18,10 @@ The [University of Hawaii Office of Sustainability](https://www.hawaii.edu/susta
 
 [The top 8 Weather APIs for 2020](https://www.climacell.co/blog/top-8-weather-apis-for-2020/) provides information on how to evaluate weather APIs as well as links to some of the more popular choices: ClimaCell, OpenWeatherMap, MeteoGroup, WeatherStack, WeatherBit, Weather2020, AerisWeather, and AccuWeather.
 
+This following video by Miles Topping discusses UH Energy metering as part of the HACC 2018 challenge:
+
+import YouTube from 'react-youtube-embed'
+
+<YouTube id="Zwq7ZtmxWyw"/>
+
 
