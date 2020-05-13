@@ -4,7 +4,7 @@ title: How to apply
 sidebar_label: How to apply
 ---
 
-To apply to become a JCI Fellow, please send an email to Philip Johnson (johnson@hawaii.edu).
+The JCI Fellows program is able to fund one graduate student research assistant and several undergraduate research assistants per year. To apply to become a JCI Fellow, please send an email to Philip Johnson (johnson@hawaii.edu).
 
 The subject line should be: "JCI Fellow Application".
 
