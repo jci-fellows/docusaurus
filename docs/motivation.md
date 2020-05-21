@@ -42,4 +42,8 @@ Second, make the model predictive: it should attempt to predict when a peak will
 
 Finally, perform studies to assess the ability of the model to predict peak consumption up to 24 hours in advance of its occurrence. If a reasonably appropriate model can be built, then UH can develop control tools to reduce consumption during periods with high probability of peak consumption. For example, the tools can cycle off HVAC systems across campus.
 
+## Project: Propose your own!
+
+The above projects are examples of the kinds of things that can help UH work toward its net-zero goals, but there are many other possible projects.  If neither of the above suit you, feel free to propose a different idea.
+
 
